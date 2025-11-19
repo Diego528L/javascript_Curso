@@ -5,5 +5,5 @@ let removido =playlist.pop();
 console.log(remmovido);
 console.log(playlist);
 playlist.forEach((playlist,index) =>{
-    console.log(`${index + 1} `);
+    console.log(`${index + 1}. ${playlist} `);
 });
