@@ -5,5 +5,5 @@ nomes.push("Brenda","Alicia");
 console.log(nomes);
 
 let removido = nomes.pop();
-console.log(removido);
+//console.log(removido);
 console.log(nomes);
