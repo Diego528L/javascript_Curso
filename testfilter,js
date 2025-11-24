@@ -1,0 +1,16 @@
+const filmes = [
+    { nome: "Homem-Aranha", categoria: "Ação" },
+    { nome: "Divertida Mente", categoria: "Animação" },
+    { nome: "Vingadores", categoria: "Ação" },
+    { nome: "Carros", categoria: "Animação" },
+];
+const resultado = filmes.filter(f => f.categoria === "Ação");
+console.table(resultado)
+const result = filmes.filter(f => f.nome === "Carros");
+console.table(result)
+
+const resultado1 = filmes.filter(f => f.categoria.includes("Ação"));
+console.table(resultado1)
+
+const result2 = filmes.filter(f => f.nome.includes ("Carros"));
+console.table(result2)
