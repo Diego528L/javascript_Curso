@@ -5,6 +5,6 @@ const produtos = [
     { id: 3, nome: "Fone com fio" },
     { id: 4, nome: "Teclado Mecânico" },
 ];
-const resultado = produtos.filter(f => f.nome.includes("Fone"));
+const resultado = produtos.filter(p => p.produto.includes("Fone"));
 console.table(resultado)
 
