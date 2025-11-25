@@ -1,0 +1,11 @@
+const prompt = require('prompt-sync')({ sigint: true });
+const mensagens = [
+ "Hoje o dia está lindo" ,
+ "Não gostei desse trabalho" ,
+ "A Aula foi muito divertida" ,
+     "Que tarefa chata" ,
+];
+const resultado = mensagens.filter(m => m.includes("chata"));
+const resultado2 = mensagens.filter(m =>m.includes("Não gostei"));
+console.table(resultado)
+console.table(resultado2)
